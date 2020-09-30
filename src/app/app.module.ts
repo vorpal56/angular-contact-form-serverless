@@ -9,19 +9,19 @@ import { MatInputModule } from "@angular/material/input";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ContactComponent
-  ],
-  imports: [
-    BrowserModule,
-    ReactiveFormsModule,
-    HttpClientModule,
-    NoopAnimationsModule,
-    MatInputModule,
-    BrowserAnimationsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		ContactComponent
+	],
+	imports: [
+		BrowserModule,
+		ReactiveFormsModule,
+		HttpClientModule,
+		NoopAnimationsModule,
+		MatInputModule,
+		BrowserAnimationsModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
